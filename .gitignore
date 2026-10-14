@@ -1,0 +1,41 @@
+# Java / Maven
+target/
+build/
+*.class
+
+# Tomcat
+work/
+logs/
+temp/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+config.local.php
+config.local.properties
+application-local.properties
+
+# PHP dependencies
+vendor/
+
+# Node dependencies
+node_modules/
+
+# React build output
+dist/
+coverage/
+
+# IDE and operating system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Private keys and credentials
+*.pem
+*.key

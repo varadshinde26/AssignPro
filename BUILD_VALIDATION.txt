@@ -1,0 +1,5 @@
+AssignPro updated package validation
+- Java sources compiled successfully with javac --release 17.
+- WAR archive recreated from updated webapp and compiled classes.
+- Maven was not available in the package-generation environment; build.bat remains the recommended Windows build process.
+- Run build.bat on the user's Windows PC to perform the project's standard build.
